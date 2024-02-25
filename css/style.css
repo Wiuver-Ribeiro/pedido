@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  header {
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  .photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaçamento entre as imagens */
+  }
+  
+  .photos img {
+    width: 100%; /* Garante que as imagens ocupem 100% da largura do contêiner */
+    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+    border-radius: 5px; /* Borda arredondada para um visual mais agradável */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra suave para um efeito de elevação */
+  }

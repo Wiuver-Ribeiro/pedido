@@ -48,8 +48,8 @@
       <h2>Bem-vinda 💖</h2>
       <form>
         <div class="mb-3">
-          <label for="data" class="form-label">Data de Aniversário</label>
-          <input type="text" class="form-control" id="data" required placeholder="Ex: 1609">
+          <label for="data" class="form-label">Data de Aniversário:</label>
+          <input type="text" class="form-control" id="data" required placeholder="Ex: 1810" autocomplete="off">
         </div>
         <button type="button" class="btn btn-success" onclick="login()">Entrar</button>
       </form>
@@ -66,7 +66,7 @@
       var data = document.getElementById('data').value;
 
 
-      if (data == "2309") {
+      if (data == "2309" || data == "1609" || data == "1810") {
         window.location.href = 'galeria.html';
       } else {
         alert('Data incorreta!. Por favor, tente novamente.');
